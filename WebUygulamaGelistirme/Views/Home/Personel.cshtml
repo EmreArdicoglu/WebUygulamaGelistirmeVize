@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "Personel";
+}
+
+<h1>Personel</h1>
+<br />
+        @{ 
+            string ad = "Personel";
+            var arr = new string[] { "Ramazan Yalçın-Rektör", "Özlem Güneş-Rektör Yardımcısı", "Recep Yavuz-Dekan", "Kemal Sarı-Hademe", "Yeşim Çetin-Aşçı", "Fatih Işık-Güvenlik", "Yunus Aslan-Revir Görevlisi" };
+
+            foreach (var item in arr)
+            {
+                @item <br/>
+            }
+        }
+
+
